@@ -1,0 +1,37 @@
+4/23/16
+13.3
+Express Server
+--------------
+
+* /api/dir will be the page contents in JSON
+* create files with json objects and export to the other files
+
+Process
+-------
+* Front end HTML
+* Back end Server
+* Back end Object Data
+ * make server with express
+ * make objects for API info
+ * cant have more than 10 people at a table
+* Routing table
+* Fulfill GET & POST requests
+* Create Listener
+
+NPM
+---
+* Express
+* Moment
+
+
+PAGES
+-----
+* Table
+* Reservation
+* Admin
+
+JSON
+----
+* Current-Tables-In-Use - Table#, CustomerID, Table Available
+* Waiting-List - Customer#, CustomerID, Time Added (moment,.js)
+* Admin-data - Table Reservation info. Name, Phone #, Email, UniqueID

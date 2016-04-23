@@ -1,0 +1,23 @@
+{
+  "name": "threeguysandagirl",
+  "version": "1.0.0",
+  "description": "Restaurant reservation / waiting list application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevoStabs/threeGuysandaGirl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevoStabs/threeGuysandaGirl/issues"
+  },
+  "homepage": "https://github.com/StevoStabs/threeGuysandaGirl#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
