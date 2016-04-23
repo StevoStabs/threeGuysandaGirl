@@ -14,6 +14,8 @@ staticContentFolder = __dirname + '/public';
 
 app.use(express.static(staticContentFolder)); 	// set the static files location /public/img will be /img for users
 
+
+
 app.listen(PORT,function() {
     console.log('Serving static content from ' + staticContentFolder)
     console.log('App listenting on PORT: '+ PORT);
