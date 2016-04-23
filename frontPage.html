@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Front Page</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1>Hot Restaurant</h1>
+			<h4>Book your table before they are gone!</h4>
+		</div>
+		<div class="panel">
+			<div class="panel-body text-center">
+				<button class="btn btn-primary btn-inline" id="viewTables">View Tables</button>
+				<button class="btn btn-danger btn-inline" id="makeReservation">Make Reservation</button>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#viewTables').on('click', function(){
+				window.location = 'tables.html';
+			})
+			$('#makeReservation').on('click', function(){
+				window.location = 'reservation.html';
+			})
+		});
+	</script>
+</body>
+</html>
