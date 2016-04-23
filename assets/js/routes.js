@@ -1,14 +1,16 @@
+var path = require("path");
+
 //set up routes
-function router() {
-        app.get('/', function (req, res) {
-            res.send("<html><head></head><body><h1>Welcome to the Site!</h1></body></html>");
-        });
-    app.get('/reservation', function (req, res) {
-        res.redirect('reserve.htmml')
+function routes() {
+    app.get('/', function (req, res) {
+        res.redirect('frontpage.html');
+    });
+    app.get('/reservation', function (req, res) {S
+        res.redirect('reserve.html');s
     });
 
     app.get('/tables', function (req, res) {
-        res.redirect('tables.html');
+        res.redirect('/tables.html');
     });
 
     app.get('/admin', function (req, res) {
@@ -41,4 +43,4 @@ function router() {
     });
 }
 
-module.exports = router;
+module.exports = routes;
